@@ -19,13 +19,15 @@ How to build and run Orbit
 There are two ways to run the benchmark. .
 
 * Run on the local node (`nonode@nohost`):
-
+		$ git clone git://github.com/amirghaffari/Orbit
+		$ Orbit
 		$ ./run
 
 The config file for a local run is `bench.config`. After finishing the benchmark, the results are shown on screen. 
 
 * To run the benchmark on a cluster, you need to specify the cluster information (such as number of nodes, nodes name, number of experiments,and path where Erlang has been installed) in both files: `run.sh` and `experiment.sh`
-
+		$ git clone git://github.com/amirghaffari/Orbit
+		$ Orbit
 		$ ./run.sh
 
 The config file for clusters is `template.config`. After finishing the benchmark, the results are saved in `results` directory.
